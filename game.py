@@ -1,25 +1,18 @@
-
-
-class game:
+from textgeneration import textGen
+# The UI should be initiated and score reset.
+class Game:
 
     def __init__(self) -> None:
         pass
 
-    def Start():
+    def start():
         pass
 
     
-    def Check_input(word_def) -> bool:
+    def check_input(word_def):
         
         if input == word_def:
             return True
         else:
             return False
-    
 
-    def Score(score) -> int:
-
-        if score:
-            return 1
-        else:
-            return 0
