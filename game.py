@@ -2,13 +2,23 @@ from textgeneration import textGen
 # The UI should be initiated and score reset.
 class Game:
 
-    def __init__(self) -> None:
+    @staticmethod
+    def __init__() -> None:
         pass
+        #while True:
+            # Initialize textgen.
+            # Enable typing area etc.
+            # Start 1 minute timer.
+            
+            # If time reached 1 minute:
+            # Check input foreach item in inputstring,
+            # Score?
+            # Break.
 
-    def start():
-        pass
+
 
     
+    @staticmethod
     def check_input(word_def):
         
         if input == word_def:
