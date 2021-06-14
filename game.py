@@ -16,7 +16,6 @@ class Game:
             # Break.
 
 
-
     
     @staticmethod
     def check_input(word_def):
